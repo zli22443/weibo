@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="431b1ab6-267c-46f9-b331-f883d8c506a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +166,7 @@
       <updated>1571842941737</updated>
       <workItem from="1571842942916" duration="3236000" />
       <workItem from="1571919257142" duration="6901000" />
-      <workItem from="1572353989931" duration="3360000" />
+      <workItem from="1572353989931" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="运行数据库迁移以及更改User模型的位置">
       <created>1572157652146</created>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572357008284</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="登录时候记住我">
+      <created>1572357398965</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572357398965</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +275,7 @@
     <MESSAGE value="创建会话" />
     <MESSAGE value="登录后导航逻辑" />
     <MESSAGE value="用户退出登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户退出登录" />
+    <MESSAGE value="登录时候记住我" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录时候记住我" />
   </component>
 </project>
