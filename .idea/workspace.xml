@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="431b1ab6-267c-46f9-b331-f883d8c506a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_30_151522_add_is_admin_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_31_113659_add_activation_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/UserPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/_user_part.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_user_part.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +171,8 @@
       <workItem from="1571842942916" duration="3236000" />
       <workItem from="1571919257142" duration="6901000" />
       <workItem from="1572353989931" duration="8170000" />
-      <workItem from="1572444255592" duration="5808000" />
+      <workItem from="1572444255592" duration="6414000" />
+      <workItem from="1572520325041" duration="3066000" />
     </task>
     <task id="LOCAL-00001" summary="运行数据库迁移以及更改User模型的位置">
       <created>1572157652146</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572447984142</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="管理员删除用户">
+      <created>1572450810513</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572450810513</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +320,7 @@
     <MESSAGE value="更改个人资料" />
     <MESSAGE value="访问策略" />
     <MESSAGE value="所有的用户列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="所有的用户列表" />
+    <MESSAGE value="管理员删除用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理员删除用户" />
   </component>
 </project>
