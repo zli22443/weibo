@@ -8,7 +8,7 @@
           @include('shared._user_info', ['user' => $user])
         </section>
         @if (\Illuminate\Support\Facades\Auth::check())
-            @include('users._follow_form')
+            @include('users._follow_form', ['user' => $user])
         @endif
         <section class="mt-2 stats">
           @include('shared._stats')
