@@ -7,6 +7,10 @@
         <section class="user_info">
           @include('shared._user_info', ['user' => $user])
         </section>
+        <section class="mt-2 stats">
+          @include('shared._stats')
+        </section>
+        <hr>
         <section class="status">
           @if ($statuses->count() > 0)
             <ul class="list-unstyled">
