@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', '主页');
+@section('title', '主页')
 
 @section('content')
   @if (\Illuminate\Support\Facades\Auth::check())
