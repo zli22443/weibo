@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ef8f83-dbbb-4966-9457-da565d9ddf68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/StatusPolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572706473559</updated>
       <workItem from="1572706477729" duration="3367000" />
-      <workItem from="1572745783813" duration="1440000" />
+      <workItem from="1572745783813" duration="3169000" />
     </task>
     <task id="LOCAL-00001" summary="用户微博列表">
       <created>1572707935053</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572709956581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="首页微博列表">
+      <created>1572757578851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572757578852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用户微博列表" />
     <MESSAGE value="发布微博" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布微博" />
+    <MESSAGE value="首页微博列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页微博列表" />
   </component>
 </project>
